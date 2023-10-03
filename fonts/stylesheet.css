@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Brannboll Fet';
+    src: url('BrannbollFet.eot');
+    src: url('BrannbollFet.eot?#iefix') format('embedded-opentype'),
+        url('BrannbollFet.woff2') format('woff2'),
+        url('BrannbollFet.woff') format('woff'),
+        url('BrannbollFet.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaExtended';
+    src: url('FuturaExtended.eot');
+    src: url('FuturaExtended.eot?#iefix') format('embedded-opentype'),
+        url('FuturaExtended.woff2') format('woff2'),
+        url('FuturaExtended.woff') format('woff'),
+        url('FuturaExtended.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NEOTERIC';
+    src: url('NEOTERIC-Bold.eot');
+    src: url('NEOTERIC-Bold.eot?#iefix') format('embedded-opentype'),
+        url('NEOTERIC-Bold.woff2') format('woff2'),
+        url('NEOTERIC-Bold.woff') format('woff'),
+        url('NEOTERIC-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dolce Vita';
+    src: url('DolceVitaLight.eot');
+    src: url('DolceVitaLight.eot?#iefix') format('embedded-opentype'),
+        url('DolceVitaLight.woff2') format('woff2'),
+        url('DolceVitaLight.woff') format('woff'),
+        url('DolceVitaLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dolce Vita';
+    src: url('DolceVita.eot');
+    src: url('DolceVita.eot?#iefix') format('embedded-opentype'),
+        url('DolceVita.woff2') format('woff2'),
+        url('DolceVita.woff') format('woff'),
+        url('DolceVita.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
