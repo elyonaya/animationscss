@@ -11,7 +11,7 @@
 }
 
 @font-face {
-    font-family: 'Dolce Vita';
+    font-family: 'Dolce';
     src: url('../fonts/DolceVitaLight.eot');
     src: url('../fonts/DolceVitaLight.eot?#iefix') format('embedded-opentype'),
         url('../fonts/DolceVitaLight.woff2') format('woff2'),
@@ -37,6 +37,7 @@
 * {
     margin:0;
     padding:0;
+    font-weight: normal;
 }
 
 body {
@@ -64,6 +65,7 @@ header nav ul{
     margin-right: 25px;
     margin-left: 25px;
     margin-bottom: 10px;
+    height: 15px;
 }
 
 header nav ul li{
@@ -78,7 +80,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    border-bottom: 10px solid black;
+    border-bottom: 15px solid black;
 }
 
 header nav ul li span {
@@ -94,18 +96,113 @@ section {
     align-items: center;
 }
 
-section h1 {
-    font-family: 'Dolce Vita';
+main section h1 {
+    font-family: 'NEOTERIC';
     font-size: 100px;
     font-weight: 200;
     color: white;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
     text-align: center;
+    line-height: 75px;
+}
+main section h1:first-line {
+    font-family: 'Dolce';
 }
 
-main>section>h1::first-line {
-    font-family: 'NEOTERIC';
-    font-weight: bold;
+section>div {
+    display: flex;
+}
+
+section>div div {
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    border: 2px solid white;
+}
+
+section>a {
+    background-color: white;
+    padding: 25px;
+}
+
+#rotation>div div:first-of-type {
+    transform: rotate(45deg);
+}
+
+#rotation>div div:nth-of-type(2):hover {
+    transform: rotate(45deg);
+}
+
+#rotation>div div:nth-of-type(3) {
+    transition: 0.5s;
+}
+
+#rotation>div div:nth-of-type(3):hover {
+    transform: rotate(45deg);
+}
+
+#zoom>div div:first-of-type {
+    transform: scale(1.25);
+}
+
+#zoom>div div:nth-of-type(2) {
+    transform: scale(0.75);
+}
+
+#zoom>div div:nth-of-type(3) {
+    transition: 0.5s;
+}
+
+#zoom>div div:nth-of-type(3):hover {
+    transform: scaleY(1.50);
+}
+
+#inclinaison>div div:first-of-type {
+    transform: skewX(15deg);
+}
+
+#inclinaison>div div:nth-of-type(2) {
+    transform: skewY(15deg);
+}
+
+#inclinaison>div div:nth-of-type(3) {
+    transition: 0.5s;
+}
+
+#inclinaison>div div:nth-of-type(3):hover {
+    transform: skewX(15deg) skewY(15deg);
+}
+
+#deplacement>div div:first-of-type {
+    transform: translate(20px, 35px);;
+}
+
+#deplacement>div div:nth-of-type(2) {
+    transform: translate(20px, -20px);
+}
+
+#deplacement>div div:nth-of-type(3) {
+    transition: 0.5s;
+}
+
+#deplacement>div div:nth-of-type(3):hover {
+    transform: translate(-15px, 45px);
+}
+
+#origine>div div:first-of-type {
+    transform-origin: top 0 left 0;
+    transform: scale(1.25);
+}
+
+#origine>div div:nth-of-type(2) {
+    transform-origin: top 15 left 50;
+    transform: translate(15px, -50px);
+}
+
+#origine>div div:nth-of-type(3) {
+    transition: 0.5s;
+}
+
+#origine>div div:nth-of-type(3):hover {
+    transform-origin: 30% 70%;
+    transform: skewY(15deg);
 }
