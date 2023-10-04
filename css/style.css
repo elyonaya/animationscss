@@ -94,6 +94,7 @@ section {
     display: flex; 
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 main section h1 {
@@ -120,8 +121,9 @@ section>div div {
 }
 
 section>a {
-    background-color: white;
-    padding: 25px;
+    background-color: black;
+    color: white;
+    padding: 15px;
 }
 
 #rotation>div div:first-of-type {
